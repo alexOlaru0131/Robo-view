@@ -22,4 +22,4 @@ The moving functions command PWM signals with a fixed duty cicle (100%).
 
 ![alt text](https://github.com/alexOlaru0131/Robo-view/blob/main/Server%20screenshot.png)
 
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://github.com/alexOlaru0131/Robo-view/blob/main/Snapchat-774478484.mp4)
+[![Watch the video]((https://github.com/alexOlaru0131/Robo-view/blob/main/Snapchat-774478484.mp4)](https://github.com/alexOlaru0131/Robo-view/blob/main/Snapchat-774478484.mp4)
