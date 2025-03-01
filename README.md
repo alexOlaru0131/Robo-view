@@ -6,21 +6,9 @@ The robot from this project is built to test the power of `6V DC engines`, to te
 
 For the structural part of the robot I used some `PVC planks` on which the components were glued, except the power supply module.
 
-The main board, an ESP32 DevKIT V1, is where the main code was
-loaded, which I will explain later. Next to it, I attached a engine driver module
-L298N that drives the DC engines. In the project, the speed of the engines could
-not be adjusted as I just wanted to make it move. Later, I regretted doing that as
-it would become unstable.
-The mobile part of the robot consists of the two DC engines and a mini
-servomotor SG90. The servo was used for moving the camera up and down.
-The camera used is an ESP32-CAM that came with the programmer and
-the code for it will not be attached to this file because it’s the default one from
-Espressif, and I just needed to select the camera from the defines.
-The power supply module provides 3,3V, 5V and 12V. Initially, I used it
-for powering the whole project, but the power draw was too high for the module
-so I used it just for the common ground and the DC engines. The main board is
-powered through the microUSB port, and the camera is powered from the main
-board.
+The main board, an `ESP32 DevKIT V1`, is where the main code was loaded. Next to it, I attached a `engine driver module L298N` that drives the `6V DC engines`. The speed of the engines could not be adjusted as I just wanted to make it move. The mobile part of the robot consists of the two engines and a `mini servomotor SG90`. The servo was used for moving the camera up and down. The camera used is an `ESP32-CAM`. The power supply module provides 3,3V, 5V and 12V. The main board is powered through the microUSB port, and the camera is powered from the main board.
+
+
 Now, let’s do an analysis throughout the code.
 I will just explain the important parts, and not the connected pins or the
 server initialization because the pins are selected based on the characteristics. I
