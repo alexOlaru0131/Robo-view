@@ -2,7 +2,7 @@
 
 The robot from this project is built to test the power of `6V DC engines`, to test the power of an `development board made by Espressif` and what I could do with a camera.
 
-![alt text](Robot photo.jpg)
+![alt text]([Robot photo.jpg](https://github.com/alexOlaru0131/Robo-view/blob/main/Robot%20photo.jpg))
 
 For the structural part of the robot I used some `PVC planks` on which the components were glued, except the power supply module.
 
